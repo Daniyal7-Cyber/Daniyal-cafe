@@ -60,15 +60,19 @@ body {
     font-size: 3rem;
 }
 
-.hero button {
+.hero-btn {
+    display: inline-block;
     padding: 12px 25px;
-    border: none;
     background: #d7a86e;
     color: white;
-    cursor: pointer;
     border-radius: 30px;
-    margin-top: 15px;
+    text-decoration: none;
     font-weight: 600;
+    margin-top: 15px;
+}
+
+.hero-btn:hover {
+    background: #4e342e;
 }
 
 /* ABOUT */
